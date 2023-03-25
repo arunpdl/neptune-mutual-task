@@ -1,0 +1,36 @@
+.btn {
+  display: inline-block;
+  border-radius: var(--border-radius);
+  padding: 0.5rem 0.5rem;
+  width: 100%;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  transition: 0.4s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn.primary {
+  border: 1px solid var(--primary);
+  background: var(--primary);
+}
+
+.btn.error {
+  border: 1px solid var(--error);
+  background: var(--error);
+}

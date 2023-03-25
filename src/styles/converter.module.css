@@ -1,0 +1,28 @@
+.converter {
+  background: var(--white);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: var(--border-radius);
+  width: 30vw;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .converter {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .converter {
+    width: 80%;
+  }
+}
+
+.title {
+  margin-bottom: 1.5rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  text-align: center;
+}

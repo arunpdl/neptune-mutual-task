@@ -1,0 +1,32 @@
+.disconnected .content {
+  padding: 1rem 1.5rem 0.5rem 1.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.disconnected .content .icon {
+  margin-top: 1rem;
+}
+
+.connected .table {
+  padding: 1rem 1.5rem 0.5rem 1.5rem;
+}
+
+.connected .table .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.row .label {
+  font-weight: 600;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 0.25rem;
+}

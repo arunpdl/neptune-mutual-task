@@ -1,0 +1,19 @@
+.mainWrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .mainWrapper {
+    transform: translateY(-10%);
+  }
+}
+
+.imgWrapper {
+  text-align: center;
+  margin-bottom: 2rem;
+}
